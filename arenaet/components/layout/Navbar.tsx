@@ -40,14 +40,14 @@ export default function Navbar() {
         {/* Actions */}
         <div className="hidden items-center gap-4 md:flex">
 
-          <button className="text-white/80">
+          <Link href="/login" className="text-white/80">
             Login
-          </button>
+          </Link>
 
 
-          <button className="rounded-full bg-green-500 px-5 py-2 font-semibold text-black">
+          <Link href="/signup" className="rounded-full bg-green-500 px-5 py-2 font-semibold text-black">
             Join Tournament
-          </button>
+          </Link>
 
         </div>
 
